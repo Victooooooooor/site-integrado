@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Universitário Integrado</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="logo-text">
+                    Integrado<span>.</span>
+                </div>
+            </div>
+            
+            <nav>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul>
+                    <li><a href="#" class="active">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#courses">Cursos</a></li>
+                    <li><a href="#locations">Localizações</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Excelência em Educação Superior</h1>
+            <p>Centro Universitário com nota máxima no MEC, oferecendo ensino de qualidade em modalidades presencial e EAD desde 1998.</p>
+            <a href="#courses" class="cta-button">Conheça nossos cursos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre Nós</h2>
+                <p>Conheça a história e os valores do Centro Universitário Integrado</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Nossa História</h3>
+                    <p>O Centro Universitário Integrado, sediado em Campo Mourão (PR), foi fundado em 1986 e iniciou o ensino superior em 1998. Tornou-se centro universitário em 2017 e oferece cursos presenciais e EAD com nota máxima do MEC.</p>
+                    
+                    <h3>Nossa Missão</h3>
+                    <p>Oferecer educação superior de qualidade, promovendo o desenvolvimento integral dos estudantes e contribuindo para o progresso da sociedade através do ensino, pesquisa e extensão.</p>
+                    
+                    <div class="milestones">
+                        <div class="milestone">
+                            <i class="fas fa-calendar-alt"></i>
+                            <h4>35+</h4>
+                            <p>Anos de história</p>
+                        </div>
+                        <div class="milestone">
+                            <i class="fas fa-user-graduate"></i>
+                            <h4>50+</h4>
+                            <p>Cursos oferecidos</p>
+                        </div>
+                        <div class="milestone">
+                            <i class="fas fa-building"></i>
+                            <h4>4</h4>
+                            <p>Unidades físicas</p>
+                        </div>
+                        <div class="milestone">
+                            <i class="fas fa-star"></i>
+                            <h4>5.0</h4>
+                            <p>Nota MEC</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://www.grupointegrado.br/_ipx/s_2048x1366/https://blog.grupointegrado.br/wp-content/uploads/2024/02/Fachada-Centro-Universitario-Integrado.jpeg" alt="Campus Universitário">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Cursos</h2>
+                <p>Oferecemos diversas opções de graduação nas melhores modalidades</p>
+            </div>
+            
+            <div class="courses-tabs">
+                <button class="tab-btn active" data-filter="all">Todos</button>
+                <button class="tab-btn" data-filter="presencial">Presencial</button>
+                <button class="tab-btn" data-filter="ead">EAD</button>
+                <button class="tab-btn" data-filter="semipresencial">Semipresencial</button>
+            </div>
+            
+            <div class="courses-grid">
+                <div class="course-card" data-category="presencial">
+                    <div class="course-image" style="background: #2a9d8f;">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-modality">Presencial</span>
+                        <h3 class="course-title">Tecnologia em Análise e Desenvolvimento de Sistemas</h3>
+                        <p class="course-level">Graduação</p>
+                        <a href="#" class="course-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="course-card" data-category="ead">
+                    <div class="course-image" style="background: #e76f51;">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-modality">EAD</span>
+                        <h3 class="course-title">Tecnologia em Mídias Digitais</h3>
+                        <p class="course-level">Graduação</p>
+                        <a href="#" class="course-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="course-card" data-category="ead">
+                    <div class="course-image" style="background: #264653;">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-modality">EAD</span>
+                        <h3 class="course-title">Tecnologia em Análise e Desenvolvimento de Sistemas</h3>
+                        <p class="course-level">Graduação</p>
+                        <a href="#" class="course-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="course-card" data-category="semipresencial">
+                    <div class="course-image" style="background: #e9c46a;">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-modality">Semipresencial</span>
+                        <h3 class="course-title">Tecnologia em Análise e Desenvolvimento de Sistemas</h3>
+                        <p class="course-level">Graduação</p>
+                        <a href="#" class="course-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="course-card" data-category="presencial">
+                    <div class="course-image" style="background: #2a9d8f;">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-modality">Presencial</span>
+                        <h3 class="course-title">Medicina Veterinária</h3>
+                        <p class="course-level">Graduação</p>
+                        <a href="#" class="course-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="course-card" data-category="presencial">
+                    <div class="course-image" style="background: #e76f51;">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-modality">Presencial</span>
+                        <h3 class="course-title">Administração</h3>
+                        <p class="course-level">Graduação</p>
+                        <a href="#" class="course-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section id="locations" class="locations">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossas Unidades</h2>
+                <p>Encontre a unidade mais próxima de você</p>
+            </div>
+            
+            <div class="locations-container">
+                <div class="location-card">
+                    <div class="location-header">
+                        <h3>Campo Mourão - Unidade Centro</h3>
+                    </div>
+                    <div class="location-body">
+                        <div class="location-info">
+                            <p><i class="fas fa-map-marker-alt"></i> Av. Irmãos Pereira, 670, Centro – 87201-010</p>
+                            <p><i class="fas fa-city"></i> Campo Mourão – PR</p>
+                            <p><i class="fas fa-phone"></i> (44) 3016-2501</p>
+                        </div>
+                        <div class="location-map">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="location-card">
+                    <div class="location-header">
+                        <h3>Campo Mourão - Unidade Campus</h3>
+                    </div>
+                    <div class="location-body">
+                        <div class="location-info">
+                            <p><i class="fas fa-map-marker-alt"></i> Rua Líssoa de Oliveira Stutuz, 440, Ates Urbanizócia II – 87205-701</p>
+                            <p><i class="fas fa-city"></i> Campo Mourão – PR</p>
+                            <p><i class="fas fa-phone"></i> (44) 3918-2500</p>
+                        </div>
+                        <div class="location-map">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="location-card">
+                    <div class="location-header">
+                        <h3>Campo Mourão - Unidade Serviços</h3>
+                    </div>
+                    <div class="location-body">
+                        <div class="location-info">
+                            <p><i class="fas fa-map-marker-alt"></i> Av. Irmãos Pereira, 670, Centro – 87201-010</p>
+                            <p><i class="fas fa-city"></i> Campo Mourão – PR</p>
+                            <p><i class="fas fa-phone"></i> (44) 3016-8690</p>
+                        </div>
+                        <div class="location-map">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="location-card">
+                    <div class="location-header">
+                        <h3>Macapá - Unidade</h3>
+                    </div>
+                    <div class="location-body">
+                        <div class="location-info">
+                            <p><i class="fas fa-map-marker-alt"></i> Av. Felicarte Coelho, 126, Central – 88840-025</p>
+                            <p><i class="fas fa-city"></i> Macapá – AP</p>
+                            <p><i class="fas fa-phone"></i> (59) 2074-0986</p>
+                        </div>
+                        <div class="location-map">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p>Tire suas dúvidas ou solicite mais informações</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Endereço</h4>
+                            <p>Av. Irmãos Pereira, 670, Centro<br>Campo Mourão - PR, 87201-010</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telefone</h4>
+                            <p>+55 (43) 3518-2501</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>contato@grupointegrado.br</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Seu telefone">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Centro Universitário Integrado. Todos os direitos reservados.</p>
+            <p>Desenvolvido com ❤️ para educação de qualidade</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navMenu = document.querySelector('nav ul');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        });
+        
+        // Tab filtering for courses
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        const courseCards = document.querySelectorAll('.course-card');
+        
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filter = button.getAttribute('data-filter');
+                
+                courseCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    navMenu.classList.remove('show');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
